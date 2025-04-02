@@ -6,7 +6,7 @@
 *~ 
 
 # Ignore MATLAB workspace and cache files
-*.mat
+
 *.mlx
 *.mlappinstall
 *.mlpkginstall
@@ -26,7 +26,6 @@ hs_err_pid*
 Thumbs.db
 
 # Ignore model files (optional: include if you want others to train from scratch)
-models/*.mat
 
 # Ignore figures and results (optional)
 results/*.png

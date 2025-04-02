@@ -12,7 +12,6 @@ This project uses machine learning models to classify breast cancer cases as mal
 - `data/`: Dataset files (.data/.names)
 - `scripts/`: MATLAB scripts for import, training, and evaluation
 - `models/`: Saved trained models
-- `results/`: Confusion matrices, accuracy reports
 
 ## 📊 Models Trained
 - Fine Decision Tree
@@ -24,9 +23,9 @@ This project uses machine learning models to classify breast cancer cases as mal
 3. Models will be trained and evaluated automatically
 
 ## 📈 Results
-- Accuracy (Fine Tree): 98.5%
-- Accuracy (Neural Network): 97.1%
-- Confusion matrices included in `results/`
+- Accuracy (Fine Tree): 92.4%
+- Accuracy (Neural Network): 96.5%
+
 
 ## 📚 Dataset
 UCI ML Breast Cancer Dataset  

@@ -1,0 +1,44 @@
+# Ignore temporary files and backup files
+*.asv
+*.autosave
+*.bak
+*.tmp
+*~ 
+
+# Ignore MATLAB workspace and cache files
+*.mat
+*.mlx
+*.mlappinstall
+*.mlpkginstall
+*.mlproj
+*.prj
+
+# Ignore log files
+*.log
+
+# Ignore crash dumps
+matlab_crash_dump.*
+javacore.*
+hs_err_pid*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model files (optional: include if you want others to train from scratch)
+models/*.mat
+
+# Ignore figures and results (optional)
+results/*.png
+results/*.fig
+results/*.txt
+
+# Ignore user-specific settings
+*.m~ 
+*.mcrCache*
+*.mexmaci64
+
+# Ignore folders from MATLAB app designer or GUI builder
+resources/
+settings/
+
